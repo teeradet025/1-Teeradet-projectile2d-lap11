@@ -2,15 +2,14 @@ using UnityEngine;
 
 public class Projectile2D : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] Transform shootpoin;
+    [SerializeField] GameObject target;
+    [SerializeField] Rigidbody2D bulletprefab;
+
+
+    private void Update()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
